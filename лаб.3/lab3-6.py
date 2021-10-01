@@ -1,0 +1,7 @@
+c = int(input('Введите целое число от 1 до 10'))
+print('    ~     ' * c)
+print('   - -    ' * c)
+print('  (o o)   ' * c)
+print('  / V \   ' * c)
+print(' /( - )\  ' * c)
+print('  ^^ ^^   ' * c)
