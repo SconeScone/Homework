@@ -46,3 +46,5 @@ print(c)
 
 d = a.intersection(b)
 print(d)
+print(len(set(a)))
+print(1 in set(a))
