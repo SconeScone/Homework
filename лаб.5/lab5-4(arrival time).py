@@ -19,7 +19,7 @@ def time(h_dep, m_dep, h_way, m_way):
     elif hours < 24:
         h_dep = hours
         days = 0
-    print("{:2d}".format(h_dep), "hours", ":", "{:2d}".format(m_dep), "minutes")
+    print("{:02}".format(h_dep), "hours", ":", "{:02}".format(m_dep), "minutes")
     print(days)
 
 
