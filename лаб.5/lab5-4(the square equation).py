@@ -19,6 +19,6 @@ def factor(a, b, c):
 
 
 # Float numbers are entering from keyboard(factors of the square equation).
-factor(float(input("Введите коэффициент при x^2, неравный 0")),
-       float(input("Введите коэффициент при x^2, неравный 0")),
-       float(input('Введите коэффициент при x^2, неравный 0')))
+factor(float(input("Введите коэффициент a при x^2, неравный 0")),
+       float(input("Введите коэффициент b при x")),
+       float(input('Введите коэффициент c')))
