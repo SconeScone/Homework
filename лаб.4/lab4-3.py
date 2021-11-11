@@ -56,4 +56,4 @@ grocery_list = ["fish", "tomato", 'apples']  # Создание нового с�
 print("tomato" in grocery_list)  # Проверка наличия элемента "tomato" в списке
 
 grocery_dict = {"fish": 1, "tomato": 6, 'apples': 3}  # Создание нового словаря
-print(grocery_dict.get('apples'))
+print(grocery_dict.get('apples'))  # Вернет значение(value) ключа "apple"
